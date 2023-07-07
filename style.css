@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+
+
+body{
+    width: 99vw;
+    height: 100vh;
+}
+
+.navigation-bar{
+    height: 8%;
+    background-color: #202126;
+    display: flex;
+    box-shadow: 1px 1px 10px rgba(0, 0,0, 0.3);
+    border-radius: 2px;
+    min-width: 700px;
+}
+
+.navigation-bar-left{
+    display: flex;
+    align-items: center;
+    flex: 4;
+    position: relative;
+    /* border-right: 1px solid white; */
+}
+.button--logobakery{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 70px;
+}
+
+.navigation-bar-right{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.link:hover{
+    background-color:#0089A9 ;
+}
+
+.bar-two{
+    margin-top: 100px;
+}
+
+.navigation-bar-cell{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.cell-mid{ 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cell-right{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.contanct--two{
+    position: absolute;
+    right: 20%;
+}
